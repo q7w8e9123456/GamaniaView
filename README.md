@@ -32,3 +32,9 @@ a custom view library
 
   });
    */
+   
+   
+如果flutter命令不能跑，請新增bash_profile並新增以下(/Library是我放flutter的位置請自行修改)
+export PATH=$PATH:/Library/flutter/bin
+export PATH=$PATH:/Library/flutter/.pub-cache/bin
+
