@@ -38,3 +38,6 @@ a custom view library
 export PATH=$PATH:/Library/flutter/bin
 export PATH=$PATH:/Library/flutter/.pub-cache/bin
 
+
+flare_flutter
+
