@@ -42,3 +42,12 @@ export PATH=$PATH:/Library/flutter/.pub-cache/bin
 flare_flutter
 
 https://ithelp.ithome.com.tw/articles/10233127?sc=rss.qu
+
+
+android.applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    def versionName = variant.versionName
+                    def date = new Date().format('yyyyMMdd')
+                    outputFileName = "teamgoal_v${versionName}_${date}.apk"
+                }
+            }
